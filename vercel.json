@@ -1,12 +1,7 @@
 {
   "redirects": [
     {
-      "source": "/:path",
-      "has": [
-        {
-          "type": "missingTrailingSlash"
-        }
-      ],
+      "source": "/:path((?!.*\\.).+[^/])",
       "destination": "/:path/",
       "permanent": true
     }
