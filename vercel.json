@@ -1,0 +1,14 @@
+{
+  "redirects": [
+    {
+      "source": "/:path",
+      "has": [
+        {
+          "type": "missingTrailingSlash"
+        }
+      ],
+      "destination": "/:path/",
+      "permanent": true
+    }
+  ]
+}
